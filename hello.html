@@ -3,14 +3,21 @@
 
 <style>
     div {
-        border: 1px solid gray;
+        border: 1px solid rgb(53, 46, 46);
         padding: 8px;
+    }
+
+    h1 {
+        text-align: center;
+        text-transform: uppercase;
+        color: #344434;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
     h3 {
         text-align: center;
         text-transform: uppercase;
-        color: #4CAF50;
+        color: #1b4d1d;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 
@@ -22,13 +29,12 @@
 
     a {
         text-decoration: none;
-        color: #008CBA;
+        color: #03445a;
     }
-    
+
     #grad1 {
-        height: 200px;
-        background-color: red; /* For browsers that do not support gradients */
-        background-image: linear-gradient(#008CBA, #9CAFB1);
+        height: 900px;
+        background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgb(82, 100, 121));
     }
 </style>
 
@@ -36,18 +42,21 @@
     <title>Hello</title>
 </head>
 
-<body style="background-color:rgb(70, 91, 93);">
+<body id="grad1">
 
     <div>
-        <p style="color:white">Hello</p>
+        <p>
+        <h1>
+            Hello
+        </h1>
+        </p>
         <h3>
             <p>Welcome back to lecture 1! In lecture 0, we introduced HTML, CSS, and Sass as tools we can use to create
                 some basic web pages. Today, we’ll be learning about using Git and GitHub to help us in developing web
                 programming applications.</p>
         </h3>
     </div>
-    
-    <div id="grad1"></div>
+
 </body>
 
 </html>
